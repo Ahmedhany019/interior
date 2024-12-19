@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="store_furniture">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Link cdn Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>interior</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="w-[95%] sm:w-11/12 m-auto pt-10 flex justify-between items-center ">
+        <img src="./images/Logo.svg" alt="logo" class="max-w-[150px]"/>
+        <nav>
+            <ul class="md:flex gap-10 hidden">
+                <li><a href="#home" class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-black after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full">Home</a></li>
+                <li><a href="#services" class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-black after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full">Services</a></li>
+                <li><a href="#contact" class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-black after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full">Contact</a></li>
+                <li><a href="#support" class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-black after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full">Support</a></li>
+            </ul>
+            <div class="group md:hidden ">
+                <i class="fa-solid fa-bars text-2xl cursor-pointer block"></i>
+                <ul class="flex md:hidden gap-2 absolute w-full justify-center items-center h-[20vh] z-[999] bg-black left-0 -top-[1000px] group-hover:-top-[0] transition-all ease-in-out duration-300">
+                    <li><a href="#home" class="font-semibold text-white">Home</a></li>
+                    <li><a href="#services" class="font-semibold text-white">Services</a></li>
+                    <li><a href="#contact" class="font-semibold text-white">Contact</a></li>
+                    <li><a href="#support" class="font-semibold text-white">Support</a></li>
+                </ul>
+            </div>
+        </nav>
+        <button class="bg-black text-white px-6 py-2 rounded-md hidden md:block">Sign Up</button>
+    </header>
+    <!-- Hero Section -->
+    <main id="home" class="w-[95%] sm:w-11/12 m-auto my-28 relative overflow-hidden">
+        <div class="flex flex-col md:flex-row gap-4 items-center justify-between">
+            <div class="text-center md:text-left">
+                <p class="font-[500] text-[40px] sm:text-[50px] xl:text-[100px]">Interior Design</p>
+                <p class="md:text-[20px] font-[00] max-w-[650px] text-[#545454]">Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge 
+            modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
+            </div>
+            <div class="image max-w-[500px]">
+                <img src="./images/Image 1.png" alt="hero" class="max-w-[300px] mt-5 md:mt-0 lg:max-w-[500px]">
+            </div>
+        </div>
+        <div class="flex gap-10 mt-10 w-[90%] relative flex flex-col md:flex-row">
+            <div class="md:mb-10 my-10 text-center md:text-left">
+                <button class="bg-black max-w-[250px] text-white px-6 py-2 mb-10">Start Project</button>
+                <div class="flex justify-center gap-10 flex-1">
+                    <span class="text-center">
+                        <p class="text-[25px] md:text-[30px] lg:text-[40px]">400 +</p>
+                        <p class="md:lg:text-[22px]">Project Complete</p>
+                    </span>
+
+                    <span class="text-center">
+                        <p class="text-[25px] md:text-[30px] lg:text-[40px]">600 +</p>
+                        <p class="md:lg:text-[22px]">Satisfied Clients</p>
+                    </span>
+
+                    <span class="text-center">
+                        <p class="text-[25px] md:text-[30px] lg:text-[40px]">100 +</p>
+                        <p class="md:lg:text-[22px]">Unique Styles</p>
+                    </span>
+                </div>
+            </div>
+            <div class="image relative hidden md:block">
+                <img src="./images/Image 2.png" alt="hero" class="z-[999] h-full object-cover relative max-w-[100%] m-auto"/>
+                <span class="absolute -top-[14px] -left-[18px] border-2 border-black w-[100px] h-[100px] border-red"></span>
+                <span class="absolute flex items-center justify-center z-[1000] bottom-0 -right-8 bg-black w-[100px] h-[100px] border-red">
+                    <i class="fa-solid fa-arrow-down-long text-white text-[40px]"></i>
+                </span>
+            </div>
+        </div>
+    </main>
+    <!-- Services -->
+    <section id="services" class="w-[95%] my-32 sm:w-11/12 m-auto">
+        <div class="relative">
+            <h1 class="before:w-[100px] before:h-[5px] before:bg-black before:absolute before:left-0 before:top-[50%] ml-[120px] md:text-[58px] sm:text-[40px] text-[30px]">Our Services</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
+            <div class="flex gap-8 items-start">
+                <img src="./images/Lighting design icon.svg" alt="lighting">
+                <div class="">
+                    <h1 class="text-[30px] mb-8">Lighting Design</h1>
+                    <p class="text-[18px]">Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere</p>
+                </div>
+            </div>
+            <div class="flex gap-8 items-start">
+                <img src="./images/Interior design icon.svg" alt="lighting">
+                <div class="">
+                    <h1 class="text-[30px] mb-8">Interior Design</h1>
+                    <p class="text-[18px]">From concept to completion, we oversee every detail to bring your vision to life efficiently</p>
+                </div>
+            </div>
+            <div class="flex gap-8 items-start">
+                <img src="./images/Outdoor design icon.svg" alt="lighting">
+                <div class="">
+                    <h1 class="text-[30px] mb-8">Outdoor Design</h1>
+                    <p class="text-[18px]">Celebrate the changing seasons with our seasonal outdoor decor services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Design -->
+    <section class="w-[95%] my-32 sm:w-11/12 m-auto">
+        <div class="flex flex-col gap-10 md:flex-row">
+            <div class="flex-1 order-2 lg:m-0 m-auto">
+                <img src="./images/Mask group.png" alt="furniture" class="object-contain xl:h-[full] max-h-[600px] w-[350px] md:w-[400px] lg:w-full">
+            </div>
+            <div class="flex-1 md:order-2">
+                <div class="w-full flex flex-col h-full gap-10 md:gap-0 justify-between">
+                    <h2 class="text-[25px] md:text-[38px] xl:text-[50px] font-semibold text-center md:text-left">Designing Your Dream With Brilliance</h2>
+                    <p class="text-[#545454] text-[18px] text-center md:text-left">Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience</p>
+                    <div class="flex justify-between items-center border-b">
+                        <h4>Living Room Interior Design</h4>
+                        <span class="text-[30px]">+</span>
+                    </div>
+                    <div class="flex justify-between items-center border-b">
+                        <h4>Commercial Office Room Interior Design</h4>
+                        <span class="text-[30px]">+</span>
+                    </div>
+                    <button class="bg-black w-fit mx-auto md:ml-0 text-white px-6 py-2 rounded-sm">Learn More</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Process -->
+    <section class="w-[95%] my-32 sm:w-11/12 m-auto">
+        <div class="flex flex-col gap-10 md:flex-row">
+            <div class="flex-1">
+                <h2 class="text-[25px] md:text-[38px] xl:text-[50px] font-semibold text-center">Designing Your Dream in Three Simple Steps</h2>
+                <div class="w-full flex justify-center gap-10 my-10">
+                    <span class="after:absolute after:w-[2px] after:h-[60px] after:bg-black after:top-[50px] after:left-1/2 after:-translate-x-1/2 relative bg-black w-[40px] h-[40px] flex items-center justify-center rounded-full">
+                        <i class="fa-solid fa-rocket text-white p-4"></i>
+                    </span>
+                    <div class="">
+                        <h5 class="text-[20px]">Start Project</h5>
+                        <p class="text-[#545454] text-[18px]">Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
+                    </div>
+                </div>
+                <div class="w-full flex justify-center gap-10 my-10">
+                    <span class="after:absolute after:w-[2px] after:h-[60px] after:bg-black after:top-[50px] after:left-1/2 after:-translate-x-1/2 relative bg-black w-[40px] h-[40px] flex items-center justify-center rounded-full">
+                        <i class="fa-regular fa-lightbulb text-white p-4"></i>
+                    </span>
+                    <div class="">
+                        <h5 class="text-[20px]">Craft</h5>
+                        <p class="text-[#545454] text-[18px]">Collaborate closely to achieve design excellence refining your vision and crafting brilliance into every aspect of your space</p>
+                    </div>
+                </div>
+                <div class="w-full flex justify-center gap-10 my-10">
+                    <span class="bg-black w-[40px] h-[40px] flex items-center justify-center rounded-full">
+                        <i class="fa-regular fa-circle-check text-white p-4"></i>
+                    </span>
+                    <div class="">
+                        <h5 class="text-[20px]">Execute</h5>
+                        <p class="text-[#545454] text-[18px]">Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 lg:m-0 m-auto">
+                <img src="./images/Image.png" alt="furniture" class="object-contain xl:h-[full] max-h-[600px] w-[350px] md:w-[400px] lg:w-full">
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="w-[95%] my-48 sm:w-11/12 m-auto">
+        <div class="relative w-full h-full">
+            <div class="flex gap-10 justify-between relative">
+                <img src="./images/Mask group (1).png" alt="room" class="hidden lg:block">
+                <h2 class="text-[25px] md:text-[38px] flex-1 xl:text-[50px] font-semibold mx-auto text-center lg:text-left">What Our Customers Say About Us</h2>
+            </div>
+
+            <div class="flex wrapper-scroll lg:left-[60px] 2xl:left-0 overflow-scroll lg:absolute lg:top-[200px] items-end justify-between gap-8 mt-5">
+                <i class="fa-solid fa-arrow-left-long hidden lg:block px-4 py-2 text-2xl cursor-pointer bg-[#eee]"></i>
+                <i class="fa-solid fa-arrow-right-long hidden lg:block px-4 py-2 text-2xl cursor-pointer bg-[#eee]"></i>
+
+                <div class="h-[600px] flex-shrink-0 lg:flex-shrink-[1] lg:w-[40%] w-full ">
+                    <div class="h-full bg-black flex flex-col justify-evenly text-white p-8 rounded">
+                      <p class="text-[150px] leading-[0] mt-20">“</p>
+                      <p class="leading-relaxed text-[24px] mb-6">Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations.  Thank you for making my home beautiful!</p>
+                      <a class="inline-flex items-center">
+                        <img alt="testimonial" src="./images/Mask group (3).png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                          <span class="title-font font-medium text-[24px]">Sophie Carter</span>
+                          <span class="text-[#929292] text-sm text-[20px]">New York, USA</span>
+                        </span>
+                      </a>
+                    </div>
+                </div>
+
+                <div class="h-[600px] flex-shrink-0 lg:flex-shrink-[1] lg:w-[40%] w-full">
+                    <div class="h-full bg-black flex flex-col justify-evenly text-white p-8 rounded">
+                        <p class="text-[150px] leading-[0] mt-20">“</p>
+                      <p class="leading-relaxed text-[24px] mb-6">Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!</p>
+                      <a class="inline-flex items-center">
+                        <img alt="testimonial" src="./images/Mask group (2).png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                          <span class="title-font font-medium text-[24px]">James Bennett</span>
+                          <span class="text-[#929292] text-sm text-[20px]">Toronto, Canada</span>
+                        </span>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="md:w-1/2 text-center max-w-[900px] m-auto pb-0 p-10">
+            <h1 class="text-[20px] md:text-[38px] xl:text-[50px] mb-10 font-semibold">Subscribe to Our Newsletter for Design Insights</h1>
+            <p class="text-[18px] md:text-[22px] text-[#545454]">Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox</p>
+            <div class="relative -bottom-8 w-full mt-10">
+                <i class="fa-solid fa-envelope absolute left-2 top-1/2 translate-y-[-50%]"></i>
+                <div class=" w-full flex items-center">
+                    <input type="text" placeholder="Enter your email" class=" md:w-1/2 max-w-[900px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)] outline-none text-[#8C8C8C] flex-1 p-4 sm:pl-10 ">
+                    <button class="bg-black text-white hidden sm:block px-6 py-2 rounded-sm absolute right-2">Subscribe</button>
+                    <i class="fa-solid cursor-pointer fa-check text-black text-[24px] sm:hidden block py-2 absolute right-2"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="support" class=" bg-black pb-10 pt-28 text-white">
+        <div class="w-11/12 m-auto">
+            <div class="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-4 gap-10">
+                <div>
+                    <img src="./images/Logo 2.svg" alt="logo" class="max-w-[150px]"/>
+                    <p class="text-[22px] my-10 text-[#D1D1D1]">
+                        VivaDecor your premier destination for luxury and modern interior design
+                    </p>
+                    <ul class="flex gap-2">
+                        <li class="bg-[#313131] py-1 px-[.5rem] cursor-pointer rounded-sm"><i class="fa-brands fa-facebook text-[25px]"></i></li>
+                        <li class="bg-[#313131] py-1 px-[.5rem] cursor-pointer rounded-sm"><i class="fa-brands fa-twitter text-[25px]"></i></li>
+                        <li class="bg-[#313131] py-1 px-[.5rem] cursor-pointer rounded-sm"><i class="fa-brands fa-instagram text-[25px]"></i></li>
+                        <li class="bg-[#313131] py-1 px-[.5rem] cursor-pointer rounded-sm"><i class="fa-brands fa-linkedin text-[25px]"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="h-full flex flex-col justify-between">
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full">Our Services</a></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Outdoor design</button></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Contact</button></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Lightning design</button></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Office design</button></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="h-full flex flex-col justify-between">
+                        <li><button class="font-semibold">Our Services</a></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Reviews</button></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Careers</button></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Pricing</button></li>
+                        <li><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">Press inquires</button></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="">
+                        <li class="mb-5"><button class="font-semibold">Our Services</button></li>
+                        <li class="mb-5"><button class="font-semibold relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full text-[#D1D1D1]">info@vivadecor.com</button></li>
+                        <li><p class="font-semibold text-[#D1D1D1] cursor-pointer relative after:absolute after:w-0 after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:ease-in-out after:duration-300 hover:after:w-full">Design Avenue Cityville, CA 90210 United States</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
